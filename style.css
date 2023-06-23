@@ -1,18 +1,16 @@
 body{
-    background:#2980b9;
+    background:#f2f2f2;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right,#2c3e50,#2980b9);
+    background: -webkit-linear-gradient(to right,#4e7dac,#f2f2f2);
     /* chrome 10-25, safari 5.1-6 */
-    background: linear-gradient(to right,#2c3e50,#2980b9);
+    background: linear-gradient(to right,#2c445c,#f2f2f2);
     /* w3c, 1e10+/Edge, Firefox 16+, chrome 26+, opera 12+, safari 7+ */  
 }
-.responsive{
-    max-width: 85%;
-    height: auto;
-}
 img{
-    margin:center;
     padding: 15px 15px 15px 15px; 
+    border-radius: 60%;
+    mix-blend-mode:luminosity;
+    box-shadow: #2c445c 10px 10px;
 }
 .displayBox{
     width: 100%;
@@ -25,3 +23,59 @@ img{
     float: left;
     padding:1rem
 }
+/* Set the width of the container */
+.col-md-8 {
+    width: 100%;
+  }
+  
+  /* Make the image responsive */
+  .responsive {
+    max-width: 350px;
+    height: auto;
+  }
+  
+  /* Style the card */
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the card header */
+  .card-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the card body */
+  .card-body {
+    padding: 0;
+  }
+  
+  /* Style the display box */
+  .displayBox {
+    height: 200px;
+    width:100%;
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Style the card footer */
+  .card-footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Style the card footer link */
+  .card-footer a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .card-footer a:hover {
+    text-decoration: underline;
+  }
+  
