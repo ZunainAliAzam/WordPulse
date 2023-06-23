@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
+    <script src="searchString.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
@@ -16,7 +17,7 @@
             <div class="col-md-8">
                 <img src="wordpulse.png" class="responsive" alt="logo">
                 <div class="card mb-4">
-                    <h2 class="card-header" id="fileName">
+                    <h2 class="card-header" id="book">
                         Book Title
                     </h2>
                     <div class="card-body">
@@ -36,7 +37,7 @@
                     <h5 class="card-header">Search</h5>  
                     <div class="card-body">
                         <div class="input-group">
-                            <input type="text" class="form-control" id="keyword" placeholder="search for ..."/>
+                            <input type="text" class="form-control" id="keywords" placeholder="search for ..."/>
                             <span class="input-group-btn">
                                 <button class="btn btn-secondary" type="button"> Search</button>
                             </span>
@@ -51,9 +52,9 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <ul class="list-unstyled mb-0" id="selectBook">
-                                    <li><a href="#">Harry Potter</a></li>
-                                    <li><a href="#">Alice in wonderland</a></li>
-                                    <li><a href="#">Lord of the rings</a></li>
+                                    <li><a href="#" onclick="loadBook('JekyllAndHyde.txt', 'Jekyll and Hyde')">Jekyll and Hyde</a></li>
+                                    <li><a href="#" onclick="loadBook('AliceInWonderland.txt', 'Alice in wonderland')">Alice in wonderland</a></li>
+                                    <li><a href="#" onclick="loadBook('LordOfTheRings.txt', 'Lord of the rings')">Lord of the rings</a></li>
                                 </ul>
                             </div>
                         </div>
