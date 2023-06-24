@@ -6,11 +6,57 @@ body{
     background: linear-gradient(to right,#2c445c,#f2f2f2);
     /* w3c, 1e10+/Edge, Firefox 16+, chrome 26+, opera 12+, safari 7+ */  
 }
-img{
-    padding: 15px 15px 15px 15px; 
-    border-radius: 60%;
-    mix-blend-mode:luminosity;
-    box-shadow: #2c445c 10px 10px;
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+.navbar-logo img {
+    width: 250px;
+    height: auto;
+    margin-right:10px;
+}
+.navbar-list li:not(:last-child) {
+    margin-right:20px; /* Add margin-right to create spacing between navbar links */
+}
+.navbar-list {
+    list-style: none;
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2.5;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.navbar-list li {
+    margin-right: 10px;
+    justify-content: space-between;
+}
+  
+.navbar-list a {
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+}  
+header{
+    margin-bottom: 10px;
+    padding-bottom: 10px
+}
+.container{
+    height: 200px;
+    padding-top:50px ;
 }
 .displayBox{
     width: 100%;
