@@ -23,7 +23,7 @@ body{
 .navbar-logo img {
     width: 250px;
     height: auto;
-    margin-right:10px;
+    /* margin-right:10px; */
 }
 .navbar-list li:not(:last-child) {
     margin-right:20px; /* Add margin-right to create spacing between navbar links */
@@ -55,6 +55,24 @@ header{
     margin-bottom: 10px;
     padding-bottom: 10px
 }
+header h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-top: 20px;
+    color: rgb(242, 255, 0);
+}
+header p{
+    font-size:20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    text-transform: capitalize;
+    color:rgb(0, 0, 0);
+    padding-top: 10px ;
+}
 .container{
     height: 200px;
     padding-top:50px ;
@@ -63,7 +81,6 @@ header{
     width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 .scroll-box{
     overflow-y: auto;
     height: 500px;
@@ -74,7 +91,12 @@ header{
 .col-md-8 {
     width: 100%;
   }
-  
+.col-md-4{
+    margin-top:-84px;
+}
+.mb-4{
+    margin-top:-60px;
+}
   /* Make the image responsive */
   .responsive {
     max-width: 350px;
@@ -125,4 +147,34 @@ header{
   .card-footer a:hover {
     text-decoration: underline;
   }
+
+  footer {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .feet {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .company-name {
+    font-weight: bold;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .container {
+    flex: 1;
+  }
+
   
