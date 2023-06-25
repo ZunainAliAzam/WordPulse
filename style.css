@@ -65,7 +65,7 @@ header h2{
 }
 @media (max-width: 600px) {
   /* Adjust the font size for mobile devices with a maximum width of 600px */
-  h2 {
+  header h2 {
     font-size: 16px;
     text-align: center;
     font-family: sans-serif;
@@ -73,6 +73,17 @@ header h2{
     margin-top: 20px;
     color: rgb(242, 255, 0);
   }
+  header p{
+    font-size:14px;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    text-transform: capitalize;
+    color:rgb(0, 0, 0);
+    padding-top: 10px ;
+    position:relative;
+}
 }
 header p{
     font-size:20px;
