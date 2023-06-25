@@ -27,6 +27,7 @@ body{
 }
 .navbar-list li:not(:last-child) {
     margin-right:20px; /* Add margin-right to create spacing between navbar links */
+    font-style: bold;
 }
 .navbar-list {
     list-style: none;
@@ -102,7 +103,7 @@ header{
   
   /* Style the display box */
   .displayBox {
-    height: 200px;
+    height: 500px;
     width:100%;
     overflow: auto;
     border: 1px solid #ccc;
