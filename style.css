@@ -62,7 +62,7 @@ header h2{
     font-weight: 900;
     margin-top: 20px;
     color: rgb(242, 255, 0);
-    position: fixed;
+    position: relative;
 }
 header p{
     font-size:20px;
@@ -73,7 +73,7 @@ header p{
     text-transform: capitalize;
     color:rgb(0, 0, 0);
     padding-top: 10px ;
-    position: fixed;
+    position:relative;
 }
 .container{
     height: 200px;
