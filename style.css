@@ -56,12 +56,18 @@ header{
     padding-bottom: 10px
 }
 header h2{
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     font-family: sans-serif;
     font-weight: 900;
     margin-top: 20px;
     color: rgb(242, 255, 0);
+}
+@media (max-width: 600px) {
+  /* Adjust the font size for mobile devices with a maximum width of 600px */
+  h2 {
+    font-size: 16px;
+  }
 }
 header p{
     font-size:20px;
